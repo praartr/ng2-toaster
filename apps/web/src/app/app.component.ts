@@ -1,6 +1,6 @@
 import { Component, OnInit, ViewContainerRef} from '@angular/core';
 import { WindowService, ModalService } from '@mycompany/core';
-import {SampleModal } from './sample-modal.component';
+import { SampleModal } from './sample-modal.component';
 import { ToastsManager } from 'ng2-toastr/ng2-toastr';
 @Component({
   selector: 'app-root',
