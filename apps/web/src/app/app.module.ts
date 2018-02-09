@@ -10,7 +10,7 @@ import { CoreModule } from './modules/core/core.module';
 import { MatDialogModule } from '@angular/material';
 import { SampleModal } from 'apps/web/src/app/sample-modal.component';
 @NgModule({
-  imports: [BrowserModule, NxModule.forRoot(), CoreModule, MatDialogModule, BrowserAnimationsModule, ToastModule],
+  imports: [BrowserModule, NxModule.forRoot(), CoreModule, MatDialogModule, BrowserAnimationsModule, ToastModule.forRoot()],
   declarations: [AppComponent, SampleModal],
   entryComponents: [SampleModal],
   bootstrap: [AppComponent]
