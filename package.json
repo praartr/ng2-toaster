@@ -24,8 +24,7 @@
     "nx-migrate": "./node_modules/.bin/nx migrate",
     "nx-migrate:check": "./node_modules/.bin/nx migrate check",
     "nx-migrate:skip": "./node_modules/.bin/nx migrate skip",
-    "reset.libs":
-    "npx rimraf -- libs/core/**/*.js && npx rimraf -- libs/core/**/*.map && npx rimraf -- libs/core/**/*.d.ts && npx rimraf -- libs/core/**/*.ngfactory.ts && npx rimraf -- libs/core/**/*.ngsummary.json && npx rimraf -- libs/core/**/*.metadata.json"
+    "reset.libs": "npx rimraf -- libs/core/**/*.js && npx rimraf -- libs/core/**/*.map && npx rimraf -- libs/core/**/*.d.ts && npx rimraf -- libs/core/**/*.ngfactory.ts && npx rimraf -- libs/core/**/*.ngsummary.json && npx rimraf -- libs/core/**/*.metadata.json"
   },
   "private": true,
   "dependencies": {
@@ -45,6 +44,7 @@
     "@ngrx/store-devtools": "4.0.0",
     "@nrwl/nx": "0.7.0",
     "core-js": "^2.4.1",
+    "ng2-toastr": "^4.1.2",
     "rxjs": "^5.5.6",
     "zone.js": "^0.8.19"
   },

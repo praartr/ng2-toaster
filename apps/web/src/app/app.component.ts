@@ -1,13 +1,16 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewContainerRef} from '@angular/core';
 import { WindowService, ModalService } from '@mycompany/core';
 import {SampleModal } from './sample-modal.component';
+import { ToastsManager } from 'ng2-toastr/ng2-toastr';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
 export class AppComponent implements OnInit {
-  constructor(private _win: WindowService, private _modal: ModalService) {}
+  constructor(private _win: WindowService, private _modal: ModalService, private _toastr: ToastsManager, private _vcRef: ViewContainerRef) {
+    this._toastr.setRootViewContainerRef(this._vcRef);
+  }
 
   ngOnInit() {}
 
