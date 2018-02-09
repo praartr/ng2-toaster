@@ -1,8 +1,0 @@
-Object.defineProperty(exports, "__esModule", { value: true });
-function throwIfAlreadyLoaded(parentModule, moduleName) {
-    if (parentModule) {
-        throw new Error(`${moduleName} has already been loaded. Import ${moduleName} in the AppModule only.`);
-    }
-}
-exports.throwIfAlreadyLoaded = throwIfAlreadyLoaded;
-//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiYW5ndWxhci5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbImFuZ3VsYXIudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IjtBQUFBLDhCQUNFLFlBQWlCLEVBQ2pCLFVBQWtCO0lBRWxCLEVBQUUsQ0FBQyxDQUFFLFlBQWEsQ0FBQyxDQUFDLENBQUM7UUFDbkIsTUFBTSxJQUFJLEtBQUssQ0FBQyxHQUFHLFVBQVUsb0NBQW9DLFVBQVUseUJBQXlCLENBQUMsQ0FBQztJQUN4RyxDQUFDO0FBQ0gsQ0FBQztBQVBELG9EQU9DIiwic291cmNlc0NvbnRlbnQiOlsiZXhwb3J0IGZ1bmN0aW9uIHRocm93SWZBbHJlYWR5TG9hZGVkKFxyXG4gIHBhcmVudE1vZHVsZTogYW55LFxyXG4gIG1vZHVsZU5hbWU6IHN0cmluZyxcclxuKSB7XHJcbiAgaWYgKCBwYXJlbnRNb2R1bGUgKSB7XHJcbiAgICB0aHJvdyBuZXcgRXJyb3IoYCR7bW9kdWxlTmFtZX0gaGFzIGFscmVhZHkgYmVlbiBsb2FkZWQuIEltcG9ydCAke21vZHVsZU5hbWV9IGluIHRoZSBBcHBNb2R1bGUgb25seS5gKTtcclxuICB9XHJcbn1cclxuIl19
